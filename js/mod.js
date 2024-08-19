@@ -15,7 +15,7 @@ let VERSION = {
 	name: "Riztime",
 }
 
-let winText = `恭喜通关！你已经完成了你的音游之旅…吗？请期待下一个更新！<br>当前结局：e7350000 Notes，下一个更新:新层级！`
+let winText = `恭喜通关！已经到达你音游之旅的终点了…吗？请期待下一个更新！<br>当前结局：e7350000 Notes，下一个更新:新层级！`
 
 // Determines when the game "ends"
 function isEndgame() {
@@ -211,7 +211,7 @@ function addedPlayerData() { return {
  var Phigros="UGhpZ3Jvc+S7gOS5iOaXtuWAmeabtOaWsOaApeaApeaApQ==" 
  var long2024="6b6Z5bm06ams5LiK6KaB5Yiw5LqG77yB56Wd5aSn5a625paw5bm06b6Z6IW+6JmO6LeD77yM6b6Z6aOe5Yek6Iie77yM6b6Z5om55LiA5Liq77yM5LqL5Lia5pyJ5oiQ77yM5a2m5Lia6aG65Yip77yM6Lqr5L2T5YGl5bq377yM6LSi5rqQ5rua5rua77yM6Z+z5ri45YWoQVDvvIzogIPor5Xlhajmu6HliIbvvIzlt6XkvZzlhajliqDolqrvvIznjqnmoJHlhajpgJrlhbPvvIzlho3mrKHnjK7kuIrpn7PkuZDmuLjmiI/moJHlhajkvZPkvZzogIXvvIjlhbEx5Lq677yJ55qE55yf5oya56Wd56aP77yB77yB77yB77yB77yB77yB77yB77yB77yB77yB" 
  var QqQe308="5oiR5pivUXFRZTMwOO+8jHbmiJE1MOabtOaWsOmfs+S5kOa4uOaIj+agkQ==" 
-//彩蛋区
+//彩蛋区，这是什么编码
 
 
 
