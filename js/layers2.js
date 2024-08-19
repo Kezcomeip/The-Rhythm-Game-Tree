@@ -18,7 +18,7 @@ addLayer("r", {
         },
 chalBox: {
   title: "Rotaeno升级",
-  body(){return "类比Phigros挑战和反物质维度中的永恒挑战（不过代码比之前Phigros挑战写得好多了）这里的Rotaeno挑战可以完成5次，而且根据完成的次数，挑战的难度会加大，奖励效果也会相应提升。"},
+  body(){return "类似于Phigros挑战和反物质维度中的永恒挑战（不过代码比之前Phigros挑战写得好多了）这里的Rotaeno挑战可以完成5次，而且根据完成的次数，挑战的难度会加大，奖励效果也会相应提升。"},
         },
 },
     name: "Rotaeno",
@@ -187,7 +187,7 @@ return mult
       function() {return '你有 ' + format(player.c.points) + ' Cyten<br>你正在获得 ' + format(n(tmp.r.resetGain).mul(tmp.r.passiveGeneration))+' 旋律每秒'},
      {"color": "#ffffff", "font-size": "14px", "font-family": "Comic Sans MS"}],
     ["display-text",
-      function() {return '你累计有 '+format(player.r.total)+' 旋律'},
+      function() {return '你累计拥有 '+format(player.r.total)+' 旋律'},
      {"color": "#ffffff", "font-size": "14px", "font-family": "Comic Sans MS"}],
     ["display-text",
       function() {if(player.devSpeed.neq(0)) return '当前重置时间为'+formatTime(player.r.resettime)},
