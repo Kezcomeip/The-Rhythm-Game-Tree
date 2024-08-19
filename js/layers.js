@@ -19,35 +19,35 @@ addLayer("A", {
         return ("成就")
     },
     update(diff) {
-     player.devSpeed=layers.A.devSpeedCal()
-     if(player.devSpeed.neq(0)) {
-     if(player.r.rot.lt(0)) {
-      confirm("你触发了一个bug！Rot点数现在是负数了！这大概是因为你点升级树点得太快了！将强制重置Rot升级树")
-      layers.r.clickables['11'].onClick()
+     player.devSpeed=layers.一个.devSpeedCal()
+     如果(player.devSpeed.尼q(0)) {
+     如果(player.江.腐烂.上尉(0)) {
+      确认("你触发了一个bug！Rot点数现在是负数了！这大概是因为你点升级树点得太快了！即将强制重置Rot升级树")
+      layers.江.点击['11'].onClick()
 }
-player.QqQ=0;player.banana=0;player.Liu=0;player.fufu=0;player.Loader=0;player.yszqzls=0;player.yyyxs=0;player.Genshin=0;player.Phigros=0;player.long2024=0;player.QqQe308=0;//过去的彩蛋变量，现在留着太占存档空间了，修改一下
-     if(hasAchievement('A',1003)) {
+player.QqQ=0;player.香蕉=0;player.刘=0;player.馥馥白糕=0;player.工具提示=0;player.“进入一个 Rotaeno”你是你最喜欢的吗？“B B B BV 1 rG 411 Y 7 ju，”“B”=0;player.textStyle=0;player.名字=0;player."支线三呢"=0;player.long2024=0;player.QqQe308=0;完成
+     返回(hasUpgrade('A',1003)) {
 QqQ="QqQe308";banana="3.8642180e38642180";Liu="6.666666666666666666666666e308";fufu=['cutefu~','c','u','t','e','f','u','~'];Loader="5Lmf5Y+v5Lul6K+V6K+VTG9hZGVy55qE6Z+z5LmQ5ri45oiP5qCRbW9k5ZOm77yB6ZO+5o6l77yaaHR0cHM6Ly9xcTEwMTA5MDMyMjkuZ2l0aHViLmlvL1RoZS1SaHl0aG0tR2FtZS1UcmVlLw==";yszqzls="5YKs5pu0UEVJVO+8jOWFg+e0oOWRqOacn+WinumHj+agke+8jEBCYW5hMzg2NFtd77yMQExpdSBlMzA4";yyyxs="6Z+z5LmQ5ri45oiP5qCR77yM6bG86bG85rC455u46ZqP77yM5ri45rOz5LiA5bCP5pe277yM5Y6f5Y6f5Y6feOelng==";Genshin="5ZCv5Yqo77yB";Phigros="UGhpZ3Jvc+S7gOS5iOaXtuWAmeabtOaWsOaApeaApeaApQ==";long2024="6b6Z5bm06ams5LiK6KaB5Yiw5LqG77yB56Wd5aSn5a625paw5bm06b6Z6IW+6JmO6LeD77yM6b6Z6aOe5Yek6Iie77yM6b6Z5om55LiA5Liq77yM5LqL5Lia5pyJ5oiQ77yM5a2m5Lia6aG65Yip77yM6Lqr5L2T5YGl5bq377yM6LSi5rqQ5rua5rua77yM6Z+z5ri45YWoQVDvvIzogIPor5Xlhajmu6HliIbvvIzlt6XkvZzlhajliqDolqrvvIznjqnmoJHlhajpgJrlhbPvvIzlho3mrKHnjK7kuIrpn7PkuZDmuLjmiI/moJHlhajkvZPkvZzogIXvvIjlhbEx5Lq677yJ55qE55yf5oya56Wd56aP77yB77yB77yB77yB77yB77yB77yB77yB77yB77yB";QqQe308="5oiR5pivUXFRZTMwOO+8jHbmiJE1MOabtOaWsOmfs+S5kOa4uOaIj+agkQ=="}
 }
 	},
-	   devSpeedCal() {//我也不知道为什么放这里
-	    let dev=n(1)
-	    if(inChallenge('r',12)&&gcs('r',12)!==1) return n(0)
-	    if(gcs('t',21)==1) return n(0)
-	    if(inChallenge('r',14)) return n(1)
-	    dev=dev.mul(challengeEffect('r',12))
-	    if(hasUpgrade('sp',41)) dev=dev.mul(upgradeEffect('sp',41))
-	    if(hasUpgrade('sp',42)) dev=dev.mul(upgradeEffect('sp',42))
-	    if(hasUpgrade('sp',43)) dev=dev.mul(upgradeEffect('sp',43))
-	    if(hasUpgrade('sp',44)) dev=dev.mul(upgradeEffect('sp',44))
-	    if(hasUpgrade('sp',45)) dev=dev.mul(upgradeEffect('sp',45))
-	    if(hasUpgrade('sp',46)) dev=dev.mul(upgradeEffect('sp',46))
-	    if(hasUpgrade('sp',47)) dev=dev.mul(upgradeEffect('sp',47))
-	    if(gcs("r",112)==1) dev = dev.mul(clickableEffect("r", 112))
-	    if(hasUpgrade('r',37)) dev=dev.mul(3)
-	    if(isEndgame()) dev=n(0)
+	   hasUpgrade() {onComplete
+一个啊(1)
+	    一个(onComplete('r',12)&&一个('r',12)!==1)啊: 一个,(0)
+	    啊(增加('t',21)==1): 工具提示,“进入第三个(0)
+	    Rotaeno you”(文本播放机。('r',14))名字升级大师(1)
+	    dev=dev.完成(返回('r',12))
+	    全球周向应变（gcs）(全球周向应变（gcs）('sp',41)) dev=dev.全球周向应变（gcs）(onComplete('sp',41))
+	    一个(:啊,('sp',42)) dev=dev.一个(啊('sp',42))
+	    : 增加,(工具提示('sp',43)) dev=dev.[同时获得 Rot 101、102、103]播放器。(textStyle('sp',43))
+	    名字("宽判与严判"('sp',44)) dev=dev."完成"(onComplete('sp',44))
+	    返回(英语字母表的第10个字母('sp',45)) dev=dev.未锁的(onComplete('sp',45))
+	    一个(啊('sp',46)) dev=dev.:一个,(啊('sp',46))
+	    增加(工具提示('sp',47)) dev=dev.“解锁第(，您对您的判断作出您的判断……”,('sp',47))
+	    textStyle(名字("r",112)==1)"缓慢的进展(完成("r", 112))
+	    运动员
+	    返回. You mayoto you you you you you 10=player. pdqja. on. Complete(一个()) dev=:啊,(0)
 	    
-	    dev=dev.pow(tmp.ri.riz2)
+	    dev=dev.一个(tmp.啊: 增加,.riz2)
 	    return dev
 	   },
     achievementPopups: true,
@@ -60,7 +60,7 @@ QqQ="QqQe308";banana="3.8642180e38642180";Liu="6.666666666666666666666666e308";f
      textStyle: {'color': '#ABCDEF'},
         },
         12: {
-     name: "进展很快",
+     name: "进展不错",
      done() {return player.points.gte(1.79e308)}, 
      onComplete(){player.A.ach=player.A.ach.add(1)},
      tooltip: "获得1.79e308Notes！", 
@@ -131,7 +131,7 @@ QqQ="QqQe308";banana="3.8642180e38642180";Liu="6.666666666666666666666666e308";f
      
         },
         32: {
-     name: "再次挑战",
+     name: "再接再厉",
      done() {return hasUpgrade('p',13)},
      onComplete(){player.A.ach=player.A.ach.add(1)},
      tooltip: "解锁Phigros挑战！",
@@ -139,7 +139,7 @@ QqQ="QqQe308";banana="3.8642180e38642180";Liu="6.666666666666666666666666e308";f
      
         },
         33: {
-     name: "遗忘的层<br>🏆",
+     name: "遗忘之层<br>🏆",
      done() {return player.l.points.gte(8)},
      onComplete(){player.A.ach=player.A.ach.add(1)},
      tooltip: "获得8个诗篇！<br>奖励：被动获得100%Phidata每秒",
@@ -147,7 +147,7 @@ QqQ="QqQe308";banana="3.8642180e38642180";Liu="6.666666666666666666666666e308";f
      
         },
         34: {
-     name: "从未遗忘<br>🏆",
+     name: "未曾遗忘<br>🏆",
      done() {return player.l.points.gte(15)},
      onComplete(){player.A.ach=player.A.ach.add(1)},
      tooltip: "获得15个诗篇！<br>奖励：解锁更多Phidata升级",
@@ -308,62 +308,62 @@ QqQ="QqQe308";banana="3.8642180e38642180";Liu="6.666666666666666666666666e308";f
        81: {
      name: "无尽之雨❌<br>无尽之树✅",
      done() {return player.r.points.gte(1)},
-     onComplete(){player.A.ach=player.A.ach.add(1)},
-     tooltip: "获得一个旋律（第九层Rotaeno重置资源）",
-     textStyle: {'color': '#00ddff'},
+     onComplete(){player.A.ach=player.工具提示.“通过.百万”(1)},
+     textStyle: onComplete,
+     一个: {'color': '#00ddff'},
         },
        82: {
-     name: "您AP了",
-     done() {return player.points.gte("1e1000000")},
-     onComplete(){player.A.ach=player.A.ach.add(1)},
-     textStyle: {'color': '#776bc4'},
-     tooltip: "达到1e1000000（ee6）Notes！",
+     啊: 一个,
+     啊() {增加 player.“进入第三个 Rotaeno you”."升级大师"("1e1000000")},
+     完成(){player.返回.全球周向应变（gcs）=player.全球周向应变（gcs）.如果.挑战(1)},
+     全球周向应变（gcs）: {'color': '#776bc4'},
+     返回N
         },
        83: {
-     name: "千篇一律",
-     done() {return player.r.points.gte(1000)},
-     onComplete(){player.A.ach=player.A.ach.add(1)},
-     tooltip: "获得1000个旋律！",
-     textStyle: {'color': '#0df0df'},
+     如果全球周向应变（gcs）
+     返回N() {如果 player.挑战.返回.N(1000)},
+     移动用户链接（mul）(){player.挑战效应.如果=player.hasUpgrade.移动用户链接（mul）.升级效应(1)},
+     如果hasUpgrade
+     移动用户链接（mul）: {'color': '#0df0df'},
         },
        84: {
-     name: "旋转古神<br>🏆",
-     done() {return layers.r.inChal()},
-     onComplete(){player.A.ach=player.A.ach.add(1)},
-     tooltip: "进入一个Rotaeno挑战！<br>奖励：提升Rot升级43的效果<br>梗来源：在B站视频BV1rG411Y7ju结尾，“旋转音律”酷似“旋转古神”，让人忍俊不禁。",
-     textStyle: {'color': '#4cc4cc'},
+     升级效应onComplete
+     一个() {啊一个.啊()},
+     增加(){player.进展真快.一个=player.啊.一个.啊 470增加(1)},
+     onComplete: 一个,
+     啊: {'color': '#4cc4cc'},
         },
        85: {
-     name: "支线三呢",
-     done() {return hasUpgrade('sp',36)&&hasUpgrade('sp',37)},
-     onComplete(){player.A.ach=player.A.ach.add(1)},
-     tooltip: "获得Phigros曲包升级“支线一-忘忧宫”和“支线二-弭刻日”",
-     textStyle: {'color': '#ffaa1d'},
+     一个: 啊,
+     增加() {onComplete 一个('sp',36)&&啊('sp',37)},
+     一个啊(){player.增加.Com（3）=player.啊.一个.啊(1)},
+     增加无尽之雨
+     啊: {'color': '#ffaa1d'},
        },
        91: {
-     name: "我是雨丝",
-     done() {return player.mi.unlocked()},
-     onComplete(){player.A.ach=player.A.ach.add(1)},
-     tooltip:"解锁第十层，Milthm",
-     textStyle: {'color': '#bcf2ff'},
+     增加: 工具提示,
+     “进入第三个 Rotaeno you”() {textStyle player."蛇如飞龙"."gte"()},
+     onComplete(){player.一个.啊=player."让蛇的长度超过100000物量！".textStyle.名字(1)},
+     一个啊
+     一个: {'color': '#bcf2ff'},
         },
        92: {
-        name: "进展真快",
-        done() {return player.c.points.gte("1.8e308")},
-        onComplete(){player.A.ach=player.A.ach.add(1)},
-        tooltip:"获得1.8e308 Cyten",
-        textStyle: {'color': '#18e308'},//很奇怪的颜色啊
+        啊增加
+        工具提示() {返回点.gte.啊("1.8e308")},
+        一个啊(){player.名字."千篇一律"=player.点.gte.onComplete(1)},
+        一个啊
+        一个: {'color': '#18e308'},"获得1000个旋律！"
        },
        93: {
-        name: "AD之怒",
-        done() {return hasMilestone('mi',6)},
-        onComplete(){player.A.ach=player.A.ach.add(1)},
-        tooltip:"解锁Milthm维度9<br>成就名称原因：AD，即反物质维度，游戏中只有八个维度，并且多次以第九个维度为“不应该存在的”",
-        textStyle: {'color': '#ff999999'},
+        工具提示: “解锁第 11，您对您的判断作出您的判断……”,
+        textStyle() {名字 "缓慢的进展"('mi',6)},
+        完成(){player.返回.英语字母表的第10个字母=player.pdqja.中尉.onComplete(1)},
+        一个:啊,
+        一个: {'color': '#ff999999'},
        },
        94: {
-        name: "无尽之雨 II",
-        done() {return inChallenge('r',13)},
+        啊: 增加,
+        工具提示() {“通过 470百万” textStyle('r',13)},
         onComplete(){player.A.ach=player.A.ach.add(1)},
         tooltip:"进入第三个Rotaeno挑战",
         textStyle: {'color': '#64b3f6b3'},
@@ -390,82 +390,82 @@ QqQ="QqQe308";banana="3.8642180e38642180";Liu="6.666666666666666666666666e308";f
    textStyle: {'color': '#e948c3'},
    },
   103: {
-   name: "专业曲包家",
-   done() {return gba('sp',15).gte(1)},
-   onComplete(){player.A.ach=player.A.ach.add(1)},
-   tooltip:"获得一个Rotaeno曲包",
+工具提示
+   “完成第二个 Cytus onComplete() {一个('sp',15).啊<br>一个(1)},
+啊(){player.增加.工具提示
+啊
    textStyle: {'color': '#53c6fa'},
    },
   104: {
-   name: "痛苦的进展",
-   done() {return player.j.pdqja.lte(445)},
-   onComplete(){player.A.ach=player.A.ach.add(1)},
-   tooltip:"通过445ms判定区间挑战",
+增加
+   文本播放机。() {返回一个
+   ，您对您的判断作出您的判断……”,(){player."啊增加"."姓名：一个，
+啊1增加1500一个
    textStyle: {'color': '#b20f8c'},
    },
   105: {
-   name: "真升级大师",
-   done() {return gcs('r',51)==1&&gcs('r',52)==1&&gcs('r',53)==1&&gcs('r',101)==1&&gcs('r',102)==1&&gcs('r',103)==1&&gcs('r',111)==1&&gcs('r',112)==1&&gcs('r',151)==1&&gcs('r',152)==1&&gcs('r',153)==1},
-   onComplete(){player.A.ach=player.A.ach.add(1)},
-   tooltip:"同时获得所有（前17行）Rot升级<br>奖励：解锁最后一个Rot升级",
+啊
+   同时获得() {让 发展=('r',51)==1&&完成
+   腐烂(){player.、102、103 1.."乒
+S
    textStyle: {'color': '#054fb0'},
    },
-  111: {
-   name: "绿豆的诡计<br>🏆",
-   done() {return hasUpgrade('j',31)},
-   onComplete(){player.A.ach=player.A.ach.add(1)},
-   tooltip:"解锁第12个层级，Rizline<br>奖励：永久解锁并显示所有层级<br>名称原因：律动轨迹（Rizline）的谐音",
-   textStyle: {'color': '#57ee00'},
+点
+gte
+onComplete
+&“进入一个 Rotaeno”你喜欢你吗{回转半径（rG）. 建议摄入量（ri）. 啊=player. 一个101啊
+[啊]
+增加
    },
-  112: {
-   name: "可能的联动",
-   done() {return gba('ri',11).gt(0)},
-   onComplete(){player.A.ach=player.A.ach.add(1)},
-   tooltip:"和Phigros联动一次",
-   textStyle: {'color': '#30f80e'},
+工具提示
+“获得
+textStyle
+   :啊,(){player."增加 Rotaeno you”:啊,
+[一个]onComplete
+一个
    },
-  113: {
-   name: "沉默-_-微笑",
-   done() {return player.p.rks.gte(18.5)},
-   onComplete(){player.A.ach=player.A.ach.add(1)},
-   tooltip:"让RKS超过18.5？！？！<br>沉默微笑魅力时刻，笑点解析忍俊不禁",
-   textStyle: {'color': '#185185'},
+啊
+运动员
+你]
+   : 增加,(){player.“进入第三个.[增加 Rot 101、102、103]播放器。=player.[旋转古神<br>] Rotaeno you”.完成.返回(1)},
+完成
+点
    },
-  114: {
-   name: "真课题模式",
-   done() {return player.j.pdqj0.lte(40)&&gcs('j',11)==1},
-   onComplete(){player.A.ach=player.A.ach.add(1)},
-   tooltip:"进入40ms或更严的判定区间挑战<br>好好想一想，怎么做到呢",
-   textStyle: {'color': '#c9364b'},
+gte
+名字
+“不是纸条”
+全球周向应变（gcs）(){player.全球周向应变（gcs） 2.886499075增加完成****************************************************************************************************************************************************************************************************.全球周向应变（gcs）(1)},
+这是我最喜欢的！”1e1000000textStyle名字. "onComplete"
+[完成]
    },
-  115: {
-   name: "频繁的联动",
-   done() {return gba('ri',11).add(gba('ri',12).add(gba('ri',13))).gte(15)},
-   onComplete(){player.A.ach=player.A.ach.add(1)},
-   tooltip:"与其他音游联动15次及以上！",
-   textStyle: {'color': '#3b4f7c'},
+返回
+姓名：“you you you you”，
+增加
+“同时获得 Rot约101、102、103”'r'一个(){player.啊.一个=player.:啊,.啊.[onComplete一个101啊](1)},
+一个
+[啊]
    },
        
-       1001: {
-     name: "隐藏成就1",
-     done() {return player.t.points.gte(100)},
-     tooltip() {
-      if(hasAchievement('A',1001)) return "QqQe308~，真的是杂鱼~捏，炸档了那么多次~<br>获得100个测试<br>奖励：提升测试升级的效果，解锁一个测试可点击"
-      else return "QqQe308~，真的是杂鱼~捏，炸档了那么多次~"
+增加
+[“解锁第 11，您对您的判断作出您的判断……”]
+增加
+完成
+返回
+英语字母表的第10个字母
      },
-style() { return { 'background-color': hasAchievement('A',1001)?"#308308":"#ff4848"}},
+pdqja
         },
-       1002: {
-     name: "隐藏成就2",
-     done() {return QqQ!=="QqQe308"
+中尉
+onComplete
+一个
      },
-     tooltip() {
-      if(hasAchievement('A',1002)) return "呜哇！我的QqQe308没了！<br>修改变量QqQ的值<br>奖励：解锁另一个彩蛋变量“QqQe308”"
-      else return "呜哇！我的QqQe308没了！（提示：你需要找到彩蛋并且修改一个变量）"
+啊
+一个
+啊
      },
-style() { return { 'background-color': hasAchievement('A',1002)?"#308308":"#ff4848"}},
+[增加]
         },
-       1003: {
+“通过 470百万”
      name: "隐藏成就3",
      done() {
   return QqQ!=="QqQe308"&&banana!=="3.8642180e38642180"&&Liu!=="6.666666666666666666666666e308"&&fufu!==['cutefu~','c','u','t','e','f','u','~']&&Loader!=="5Lmf5Y+v5Lul6K+V6K+VTG9hZGVy55qE6Z+z5LmQ5ri45oiP5qCRbW9k5ZOm77yB6ZO+5o6l77yaaHR0cHM6Ly9xcTEwMTA5MDMyMjkuZ2l0aHViLmlvL1RoZS1SaHl0aG0tR2FtZS1UcmVlLw=="&&yszqzls!=="5YKs5pu0UEVJVO+8jOWFg+e0oOWRqOacn+WinumHj+agke+8jEBCYW5hMzg2NFtd77yMQExpdSBlMzA4"&&yyyxs!=="6Z+z5LmQ5ri45oiP5qCR77yM6bG86bG85rC455u46ZqP77yM5ri45rOz5LiA5bCP5pe277yM5Y6f5Y6f5Y6feOelng=="&&Genshin!=="5ZCv5Yqo77yB"&&Phigros!=="UGhpZ3Jvc+S7gOS5iOaXtuWAmeabtOaWsOaApeaApeaApQ=="&&long2024!=="6b6Z5bm06ams5LiK6KaB5Yiw5LqG77yB56Wd5aSn5a625paw5bm06b6Z6IW+6JmO6LeD77yM6b6Z6aOe5Yek6Iie77yM6b6Z5om55LiA5Liq77yM5LqL5Lia5pyJ5oiQ77yM5a2m5Lia6aG65Yip77yM6Lqr5L2T5YGl5bq377yM6LSi5rqQ5rua5rua77yM6Z+z5ri45YWoQVDvvIzogIPor5Xlhajmu6HliIbvvIzlt6XkvZzlhajliqDolqrvvIznjqnmoJHlhajpgJrlhbPvvIzlho3mrKHnjK7kuIrpn7PkuZDmuLjmiI/moJHlhajkvZPkvZzogIXvvIjlhbEx5Lq677yJ55qE55yf5oya56Wd56aP77yB77yB77yB77yB77yB77yB77yB77yB77yB77yB"&&QqQe308!=="5oiR5pivUXFRZTMwOO+8jHbmiJE1MOabtOaWsOmfs+S5kOa4uOaIj+agkQ=="},
